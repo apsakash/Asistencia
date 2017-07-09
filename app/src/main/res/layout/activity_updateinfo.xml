@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_updateinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.akashpratapsingh.attendance.updateinfo"
+    android:padding="0dp"
+    android:orientation="vertical"
+    android:background="@drawable/image">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:typeface="serif"
+        android:textAlignment="center"
+        android:text="Mark Attendance"
+        android:background="#00ff33"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:paddingTop="10dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/updateinfo"
+        android:background="@drawable/image"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

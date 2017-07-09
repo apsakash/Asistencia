@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_displaysubject"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:orientation="vertical"
+    tools:context="com.example.akashpratapsingh.attendance.displaysubject"
+    android:background="@drawable/listselect"
+    android:padding="0dp">
+
+    <TextView
+        android:text="Subjects"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:id="@+id/textView6"
+        android:textSize="40sp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:paddingTop="10dp"
+        android:background="#00ff33" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclersubject"
+        android:padding="0dp">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

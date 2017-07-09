@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_displaylist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.akashpratapsingh.attendance.displaysubject"
+    android:background="@drawable/image"
+    android:padding="0dp">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/currentdate"
+        android:textSize="40sp"
+        android:textColor="@android:color/background_dark"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:background="#00ff33"
+        android:layout_margin="0dp"
+        android:fontFamily="cursive" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler"
+        android:padding="10dp"
+        android:scrollbarSize="0dp"
+        android:visibility="visible">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
